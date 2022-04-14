@@ -139,6 +139,7 @@ class WebAppManager():
         browsers.append(Browser(BROWSER_TYPE_FIREFOX, "Firefox Extended Support Release", "firefox-esr", "/usr/bin/firefox-esr"))
         browsers.append(Browser(BROWSER_TYPE_FIREFOX, "Firefox Developer Edition", "firefox-developer-edition", "/usr/bin/firefox-developer-edition"))
         browsers.append(Browser(BROWSER_TYPE_FIREFOX_FLATPAK, "Firefox (Flatpak)", "/var/lib/flatpak/exports/bin/org.mozilla.firefox", "/var/lib/flatpak/exports/bin/org.mozilla.firefox"))
+        browsers.append(Browser(BROWSER_TYPE_CHROMIUM, "Brave (Flatpak)", "/var/lib/flatpak/exports/bin/org.brave.Browser", "/var/lib/flatpak/exports/bin/com.brave.Browser"))
         browsers.append(Browser(BROWSER_TYPE_CHROMIUM, "Brave", "brave-browser", "/usr/bin/brave-browser"))
         browsers.append(Browser(BROWSER_TYPE_CHROMIUM, "Chrome", "google-chrome", "/usr/bin/google-chrome-stable"))
         browsers.append(Browser(BROWSER_TYPE_CHROMIUM, "Chromium", "chromium", "/usr/bin/chromium"))
