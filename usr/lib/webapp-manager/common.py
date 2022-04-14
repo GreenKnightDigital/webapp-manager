@@ -203,6 +203,7 @@ class WebAppManager():
                                     " " + url + "\n")
             else:
                 # Chromium based
+                # I need to add support for Brave Flatpak Support
                 if isolate_profile:
                     profile_path = os.path.join(PROFILES_DIR, codename)
                     exec_string = ("Exec=" + browser.exec_path +
